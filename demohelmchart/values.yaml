@@ -8,7 +8,7 @@ image:
   repository: bhanu2021/demo1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
 
 service:
