@@ -17,4 +17,4 @@ service:
   targetPort: 9111
 
 container:
-  name: helmcharttest
+  name: demohelmchart
