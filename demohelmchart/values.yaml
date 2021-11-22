@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: bhanu2021/demo1
+  repository: bhanu2021/demo1:latest
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
 
 
 service:
@@ -17,4 +17,4 @@ service:
   targetPort: 9111
 
 container:
-  name: demohelmchart
+  name: demo1
