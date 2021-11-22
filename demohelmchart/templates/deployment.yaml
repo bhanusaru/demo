@@ -19,5 +19,6 @@ spec:
           image: {{ .Values.container.name | quote }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
-            - containerPort: {{ .Values.service.targetport }}
-          
+            - name: http
+              containerPort: 9111
+              protocol: TCP
